@@ -1,0 +1,6 @@
+#write_on_screen_div{
+    height: 35vh;
+    width: 17vw;
+    border-radius: 50% ;
+    position: relative; 
+}

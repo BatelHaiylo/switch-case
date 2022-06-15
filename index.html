@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Switch Case</title>
+</head>
+<body>
+    <input type="number" id="user_num" min="0">
+    <button id="user_num_btn" onclick="cheackUserInputNumber()">cheack the number</button>
+   
+    <input type="text" id="user_name" min="0">
+    <button id="user_name_btn" onclick="cheackUserInputNane()">cheack my name</button>
+    <h3 id="write_on_screen_h3"></h3>
+
+    <input type="number" min="0" id="num_1">
+    <input type="text"  id="operator" placeholder="please enter a math sign">
+    <input type="number" min="0" id="num_2">
+    <button id="math_excs_btn" onclick="userCreateMatmatics()">Calculate</button>
+    
+    <input type="color" id="user_Tcolor" style="">
+    <input type="text" id="user_text">
+    <select id="user_choosen_header">
+        <option value="h1">h1</option>
+        <option value="h2">h2</option>
+        <option value="h3">h3</option>
+        <option value="h4">h4</option>
+        <option value="h5">h5</option>
+        <option value="h6">h6</option>
+    </select>
+    <button onclick="userCreateAndSentenceElement()">Print</button>
+    <p id="write_on_screen_p"></p>
+    
+    <input type="color" id="user_color">
+    <select id="user_position">
+        <option value="top-left">top-left</option>
+        <option value="top-right">top-right</option>
+        <option value="bottom-left">bottom-left</option>
+        <option value="bottom-right">bottom-right</option>
+    </select>
+    <button id="create_element_btn" onclick="userCreateAndPositionElement()">Create</button>
+    <div id="write_on_screen_div"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
