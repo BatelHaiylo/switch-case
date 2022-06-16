@@ -1,17 +1,17 @@
 function cheackUserInputNumber() {
-  let userInput = document.getElementById("user_num").value;
+  let userInput = +document.getElementById("user_num").value;
   console.log(userInput);
 
   switch (userInput) {
-    case "3":
+    case 3:
       console.log("hello");
       break;
 
-    case "5":
+    case 5:
       console.log("goodbye");
       break;
 
-    case "7":
+    case 7:
       console.log("thank you");
       break;
 
